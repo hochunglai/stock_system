@@ -21,7 +21,7 @@ public class TickerConfiguration {
                     102
             );
             //tickerRepository.saveAll(List.of(apple, orange));
-            LMFAO
+
         };
     }
 }
