@@ -23,4 +23,7 @@ public class TickerService {
         return tickerRepository.findStockByTicker(ticker);
     }
 
+    public Ticker saveTicker(Ticker ticker){
+        return tickerRepository.save(ticker);
+    }
 }
